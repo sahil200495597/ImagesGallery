@@ -1,0 +1,101 @@
+
+
+#gallery {
+    margin: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 10px;
+}
+
+img {
+    cursor: pointer;
+}
+
+
+#thumbnail-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#thumbnail-list li {
+    margin-right: 10px;
+}
+
+#thumbnail-list img {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+#thumbnail-list img.selected {
+    filter: grayscale(0%);
+}
+
+
+h1{
+    
+    font-family: sans-serif;
+    color: brown;
+}
+
+*{
+    margin-left: 10px;
+}
+
+#thumbnail-list img {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    border-radius: 12px; /* Add or adjust border-radius for thumbnails */
+}
+
+#thumbnail-list img.selected {
+    filter: grayscale(0%);
+    border: 2px solid #3498db; /* Highlight the selected thumbnail */
+}
+
+/* Hover effect for thumbnails */
+#thumbnail-list img:hover {
+    transform: scale(1.1); /* Enlarge thumbnails on hover */
+    filter: grayscale(50%);
+}
+
+#featured-image{
+    border-radius: 10px;
+}
+
+#thumbnail-list img {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s; /* Add transition for both filter and transform */
+    border-radius: 12px; /* Add or adjust border-radius for thumbnails */
+}
+
+#thumbnail-list img.selected {
+    filter: grayscale(0%);
+    border: 2px solid #3498db; /* Highlight the selected thumbnail */
+}
+
+/* Hover effect for thumbnails */
+#thumbnail-list img:hover {
+    transform: scale(1.1); /* Enlarge thumbnails on hover */
+    filter: grayscale(50%);
+}
